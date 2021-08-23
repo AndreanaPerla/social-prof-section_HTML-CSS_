@@ -199,8 +199,7 @@ main {
   margin-top: -0.5rem;
 }
 
-/*mobile*/
-@media only screen and (max-width: 375px) {
+@media (max-width: 800px) {
   body {
     background: url(./images/bg-pattern-top-mobile.svg) no-repeat;
     overflow: visible;
@@ -224,6 +223,7 @@ main {
   .reviews {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .title p {
@@ -282,3 +282,4 @@ main {
     margin-right: 0;
   }
 }
+
